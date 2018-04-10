@@ -2,6 +2,7 @@
   color: rgb(255,99,71);
   font-size: 64px;
   font-family: sans-serif;
+  font-weight: bold;
 }
 
 
@@ -36,4 +37,6 @@ nav {
 a {
   font-weight: bold;
   color:black;
+  font-size: 16px;
+  font-family: sans-serif;
 }
