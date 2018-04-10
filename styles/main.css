@@ -1,5 +1,5 @@
 #headline {
-  color: red;
+  color: rgb(255,99,71);
   font-size: 64px;
   font-family: sans-serif;
 }
@@ -16,4 +16,14 @@
 
 .flaticon {
     width:10px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: rgb(255,99,71);
+  border-color: #000000;
+}
+
+.btn-lg.round {
+	border-radius: 24px;
 }
