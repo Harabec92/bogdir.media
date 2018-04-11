@@ -58,3 +58,49 @@ a {
   position: relative;
   right: 150px;
 }
+
+.panel-margin{
+  margin-top: 30px;
+}
+
+body{
+ padding-top: 30px;
+}
+.gallery-container{
+ padding: 4px;
+
+}
+.outerContent{
+ float: left;
+ position: relative;
+}
+.innerContent{
+ position: absolute;
+ left: 3px;
+ right:3px;
+ top: 3px;
+ bottom: 3px;
+ border: 1px solid #d3d3d3;
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center center;
+}
+@media(max-width:767px){
+ .outerContent{
+   padding-bottom: 33.33%;
+ }
+}
+@media(min-width:768px){
+ .outerContent{
+   padding-bottom: 25%;
+ }
+}
+@media(min-width:992px){
+ .outerContent{
+   padding-bottom: 16.66%;
+ }
+}
+.innerContent:hover{
+ border-color: #4863a0;
+ transition: 0.4s;
+}
