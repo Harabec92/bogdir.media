@@ -1,3 +1,4 @@
 function functionOne() {
-  alert('You clicked the top text');
+  var x = document.getElementById("image1");
+  x.style = "background-image: url('images/camera.jpg')"
 }

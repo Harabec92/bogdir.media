@@ -69,10 +69,12 @@ body{
 .gallery-container{
  padding: 4px;
 
+
 }
 .outerContent{
  float: left;
  position: relative;
+
 }
 .innerContent{
  position: absolute;
