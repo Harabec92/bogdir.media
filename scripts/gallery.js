@@ -1,1 +1,3 @@
-function functionOne() { alert('You clicked the top text'); }
+function functionOne() {
+  alert('You clicked the top text');
+}
