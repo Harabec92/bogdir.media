@@ -100,7 +100,12 @@ body{
    padding-bottom: 16.66%;
  }
 }
-.innerContent:hover{
+.innerContent:hover {
  border-color: #4863a0;
  transition: 0.4s;
+}
+
+#backarrow {
+  height: 5%;
+  width: 5%;
 }

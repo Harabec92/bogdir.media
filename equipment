@@ -1,0 +1,34 @@
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link	href="styles/main.css" type="text/css" rel="stylesheet"/>
+  <title>bogdir.media</title>
+</head>
+
+<body>
+<div class="row">
+  <div class="col-sm-4 col-md-6 col-lg-4 col-lg-offset-1">
+    <div><h1 id="headline">borgdir.media</h1></div>
+  </div>
+
+  <div class="col-sm-8 col-md-6 col-lg-6" id="nav-middle">
+      <nav>
+        <div class="col-lg-2"><a href="#">Equipment</a></div>
+        <div class="col-lg-2">|</div>
+        <div class="col-lg-2"><a href="#">Meine Geräte</a></div>
+        <div class="col-lg-2">|</div>
+        <div class="col-lg-2"><a href="#">Logout</a></div>
+
+
+        <div class="col-lg-1" id="cart"><a href="#"><img class="flaticon img-responsive " src="images/shopping-cart.svg" alt="Shopping Cart"></a></div>
+      </nav>
+  </div>
+  </div>
+
+
+</body>
+
+
+
+</html>
