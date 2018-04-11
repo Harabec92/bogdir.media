@@ -12,7 +12,11 @@
 }
 
 .italic {
+  font-weight: bolder;
   font-style: italic;
+  font-size: 16px;
+  font-family: sans-serif
+
 }
 
 .flaticon {
@@ -39,4 +43,18 @@ a {
   color:black;
   font-size: 16px;
   font-family: sans-serif;
+}
+
+.flaticon{
+  width: 256px;
+}
+
+#cart {
+    position: relative;
+    left: 150px
+}
+
+#nav-middle {
+  position: relative;
+  right: 150px;
 }
