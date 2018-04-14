@@ -7,6 +7,39 @@
 </head>
 
 <body>
+
+  <!--Naviationsleiste-->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-4 col-md-6 col-lg-4 col-mg-offset-1 col-lg-offset-1">
+        <div><a href="index.html"><h1 id="headline">borgdir.media</h1></a></div>
+      </div>
+      <nav>
+        <div class="col-sm-1 col-md-4 col-lg-3" style = "float-left">
+          <span><a href="equipment">Equipment</a></span>
+          <span> | </span>
+          <span><a href="my-equipment">Meine Geräte</a></span>
+          <span> | </span>
+          <span><a href="#">Logout</a></span>
+        </div>
+        <div class="col-sm-1 col-md-4 col-lg-1"></div>
+          <div class="col-lg-1"><a href="cart" style = "float-left; right: 300px;"><img class="flaticon img-responsive " id="cart" src="images/shopping-cart.svg" alt="Shopping Cart"></a></div>
+      </nav>
+    </div>
+
+    <!-- oberste Zeile-->
+    <div class="container-fluid" style="margin-top: 10px">
+      <div class="topnav">
+        <div class="row">
+          <span class="italic col-lg-offset-1">Equipment</span>
+          <input type="text" placeholder="Search..">
+        </div>
+      </div>
+    </div>
+
+
+
+<!--
 <div class="row">
   <div class="col-sm-4 col-md-6 col-lg-4 col-lg-offset-1">
     <div><h1 id="headline">borgdir.media</h1></div>
@@ -25,7 +58,7 @@
       </nav>
   </div>
   </div>
-
+-->
 
 </body>
 
