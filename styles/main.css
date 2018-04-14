@@ -56,7 +56,11 @@ a {
 
 #cart {
     position: relative;
-    left: 150px
+    left: 150px;
+    width:auto;
+    height:auto;
+    max-width:25px;
+    max-height:25px;
 }
 
 #nav-middle {
