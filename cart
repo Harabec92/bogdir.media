@@ -7,6 +7,181 @@
 </head>
 
 <body>
+
+  <!--Naviationsleiste with user-->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-4 col-md-6 col-lg-4 col-mg-offset-1 col-lg-offset-1">
+        <div><a href="index.html"><h1 id="headline">borgdir.media</h1></a></div>
+      </div>
+      <nav>
+        <div class="col-sm-1 col-md-4 col-lg-3" style = "float-left">
+          <span><a href="equipment">Equipment</a></span>
+          <span> | </span>
+          <span><a href="my-equipment">Meine Geräte</a></span>
+          <span> | </span>
+          <span><a href="#">Logout</a></span>
+        </div>
+          <div class="col-lg-1 float-left">
+            <a href="cart" style = "float-left;"><img class="flaticon img-responsive " id="cart" src="images/shopping-cart.svg" alt="Shopping Cart"></a>
+          </div>
+        <div class="col-sm-1 col-md-4 col-lg-1 float-left">
+          <span>Max Mustermann</span>
+        </div>
+
+        <div class="col-sm-1 col-md-4 col-lg-1 float-left">
+          <a href="#" style = "float-left;"><img class="flaticon img-responsive " id="userImage" src="images\icons\user.png" alt="UserImage"></a>
+        </div>
+
+
+      </nav>
+    </div>
+
+
+
+    <div class="container">
+    <!--Überschrift-->
+      <div><h2 class="italic">Warenkorb</h2><div>
+
+    <!--Warenkorb-Liste-->
+      <div class="table-responsive">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Equipment</th>
+            <th>Beschreibung</th>
+            <th>Anzahl</th>
+            <th>Rückgabe bis</th>
+            <th>Löschen</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!--Tabellenzeile-->
+          <tr id="tableRow1">
+            <td>
+              <div class="col-lg-4"><img class="produktbild" src="images\camera2.jpg"></img></div>
+              <div class="col-lg-8">
+                <p class="article">Kamera 1</p>
+                <p class="small">Inv. Nr.: 12349812</p>
+              </div>
+            </td>
+
+            <td style="width: 30%;">
+              <span id="beschreibung">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et</span>
+            </td>
+            <td style="width: 10%;">
+              <div class="form-group">
+                <label for="number"></label>
+                <input type="number" class="form-control" id="number">
+              </div>
+            </td>
+            <td>
+              <p class="rueckgabe">Rückgabe bis</p>
+              <p class="date">25.05.2018</p>
+            </td>
+            <td><button type="button" class="btn btn-danger"><img class = "img-responsive flaticon" src="images\icons\delete.png"></img></button></td>
+          </tr>
+
+          <!--Tabellenzeile-->
+          <tr id="tableRow2">
+            <td>
+              <div class="col-lg-4"><img class="produktbild" src="images\stativ2.jpg"></img></div>
+              <div class="col-lg-8">
+                <p class="article">Stativ</p>
+                <p class="small">Inv. Nr.: 4234253-2</p>
+              </div>
+            </td>
+
+            <td style="width: 30%;">
+              <span id="beschreibung">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et</span>
+            </td>
+            <td style="width: 10%;">
+              <div class="form-group">
+                <label for="number"></label>
+                <input type="number" class="form-control" id="number">
+              </div>
+            </td>
+            <td>
+              <p class="rueckgabe">Rückgabe bis</p>
+              <p class="date">25.05.2018</p>
+            </td>
+            <td><button type="button" class="btn btn-danger"><img class = "img-responsive flaticon" src="images\icons\delete.png"></img></button></td>
+          </tr>
+
+          <!--Tabellenzeile-->
+          <tr id="tableRow3">
+            <td>
+              <div class="col-lg-4"><img class="produktbild" src="images\mikrofon.jpg"></img></div>
+              <div class="col-lg-8">
+                <p class="article">Mikrofon</p>
+                <p class="small">Inv. Nr.: 23498232-1</p>
+              </div>
+            </td>
+
+            <td style="width: 30%;">
+              <span id="beschreibung">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et</span>
+            </td>
+            <td style="width: 10%;">
+              <div class="form-group">
+                <label for="number"></label>
+                <input type="number" class="form-control" id="number">
+              </div>
+            </td>
+            <td>
+              <p class="rueckgabe">Rückgabe bis</p>
+              <p class="date">25.05.2018</p>
+            </td>
+            <td><button type="button" class="btn btn-danger"><img class = "img-responsive flaticon" src="images\icons\delete.png"></img></button></td>
+          </tr>
+
+
+          <!--Tabellenzeile-->
+          <tr id="tableRow4">
+            <td>
+              <div class="col-lg-4"><img class="produktbild" src="images\monitorsmall.jpg"></img></div>
+              <div class="col-lg-8">
+                <p class="article">Monitor 7"</p>
+                <p class="small">Inv. Nr.: 72948742-1</p>
+              </div>
+            </td>
+
+            <td style="width: 30%;">
+              <span id="beschreibung">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et</span>
+            </td>
+            <td style="width: 10%;">
+              <div class="form-group">
+                <label for="number"></label>
+                <input type="number" class="form-control" id="number">
+              </div>
+            </td>
+            <td>
+              <p class="rueckgabe">Rückgabe bis</p>
+              <p class="date">25.05.2018</p>
+            </td>
+            <td><button type="button" class="btn btn-danger"><img class = "img-responsive flaticon" src="images\icons\delete.png"></img></button></td>
+          </tr>
+
+        </tbody>
+      </table>
+      </div>
+
+      <!--Ausleihbutton-->
+      <form class="form" action="#">
+        <div class="row">
+          <div class="col-lg-9"></div>
+          <div class="col-lg-3">
+            <div align="right"><button type="submit" class="btn btn-primary btn-lg round btn-block">Jetzt ausleihen</button></div>
+          </div>
+        </div>
+      </form>
+
+
+
+    </div>
+
+
 </body>
+
+
 
 </html>

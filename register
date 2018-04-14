@@ -4,45 +4,69 @@
   <link	href="styles/main.css" type="text/css" rel="stylesheet"/>
 </head>
 <body>
-<!--Naviationsleiste-->
-  <div class="row">
-    <div class="col-sm-4 col-md-6 col-lg-4 col-lg-offset-1">
-      <div><h1 id="headline">borgdir.media</h1></div>
-    </div>
 
-    <div class="col-sm-8 col-md-6 col-lg-6" id="nav-middle">
-        <nav>
-          <div class="col-lg-1"><a href="#">Equipment</a></div>
-          <div class="col-lg-1">|</div>
-          <div class="col-lg-1"><a href="#">Login</a></div>
-          <div class="col-lg-1"></div>
-          <div class="col-lg-1"></div>
-          <div class="col-lg-1"></div>
-          <div class="col-lg-1"></div>
-          <div class="col-lg-1"></div>
-          <div class="col-lg-1"></div>
-          <div class="col-lg-1"></div>
-          <div class="col-lg-1"></div>
-          <div class="col-lg-1" id="cart"><a href="#"><img class="flaticon img-responsive " src="images/shopping-cart.svg" alt="Shopping Cart"></a></div>
-        </nav>
+  <!--Naviationsleiste-->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-4 col-md-6 col-lg-4 col-mg-offset-1 col-lg-offset-1">
+        <div><a href="index.html"><h1 id="headline">borgdir.media</h1></a></div>
+      </div>
+      <nav>
+        <div class="col-sm-1 col-md-4 col-lg-2" style = "float-left">
+          <span><a href="equipment">Equipment</a></span>
+          <span> | </span>
+          <span><a href="login">Login</a></span>
+        </div>
     </div>
 </div>
 
-<p>
-  <form action="#">
-    <div class="col-sm-8 col-md-6 col-lg-6"
-     <div class="form-group col-lg-1">
-       <label for="user">Benutzername</label>
-       <input type="user" class="form-control" id="user">
-     </div>
-     <div class="form-group col-lg-1">
-       <label for="email">E-Mail</label>
-       <input type="email" class="form-control" id="email">
-     </div>
- </div>
- </form>
 
-</p>
+<div><h2 class="italic text-center">Noch kein Kunde bei uns?</h2><div>
+
+<!--Formular-->
+
+<div class="container">
+  <form class="form-inline" action="#">
+    <div class="row">
+        <div align="center">
+          <p>
+              <div class="form-group">
+                <p><label class="control-label col-sm-2" for="user">Benutzername</label></p>
+                <p ><input type="user" class="form-control form-round" id="user" name="user"></p>
+
+            </div>
+            <div class="form-group">
+              <p><label  class="control-label col-sm-2" for="email">E-Mail:</label></p>
+              <p><input type="email" class="form-control form-round" id="email" name="email"></p>
+            </div>
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div align="center">
+        <p>
+          <div class="form-group">
+            <p><label class="control-label col-sm-2" for="pwd">Passwort</label></p>
+            <p><input type="pwd" class="form-control form-round" id="pwd" name="pwd"></p>
+          </div>
+          <div class="form-group">
+            <p><label class="control-label col-sm-2" for="pwd-again">Passwort wiederholen</label></p>
+            <p><input type="pwd-again" class="form-control form-round" id="pwd-again" name="pwd-again"></p>
+          </div>
+        </p>
+      </div>
+    </div>
+
+
+    <!--Registrierbutton-->
+    <div class="row">
+      <div align="center"><button type="submit" class="btn btn-primary btn-lg round">Registrieren</button></div>
+    </div>
+  </form>
+</div>
+
+
 
 </body>
 

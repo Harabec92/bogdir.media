@@ -3,7 +3,10 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link	href="styles/main.css" type="text/css" rel="stylesheet"/>
-  <title>bogdir.media</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <title>borgdir.media - Equipment</title>
 </head>
 
 <body>
@@ -27,12 +30,53 @@
       </nav>
     </div>
 
-    <!-- oberste Zeile-->
+    <!-- Auswahlfelder-->
     <div class="container-fluid" style="margin-top: 10px">
-      <div class="topnav">
+
+      <nav class="navbar">
+       <div class="container-fluid col-lg-offset-1">
+         <div class="navbar-header">
+           <a class="navbar-brand italic ">Equipment</a>
+         </div>
+         <ul class="nav navbar-nav">
+           <li>         <!--Searchbox-->
+                    <input class="navbar-btn" type="text" placeholder="Suche">
+          </li>
+         </ul>
+
+         <!--Dropdown-Menu-->
+         <div class="dropdown navbar-btn">
+           <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Alle
+           <span class="caret"></span></button>
+           <ul class="dropdown-menu">
+             <li><a href="#">Audiogeräte</a></li>
+             <li><a href="#">Kameras</a></li>
+             <li><a href="#">Licht</a></li>
+             <li><a href="#">Zubehör</a></li>
+           </ul>
+         </div>
+
+
+       </div>
+     </nav>
+
         <div class="row">
-          <span class="italic col-lg-offset-1">Equipment</span>
-          <input type="text" placeholder="Search..">
+          <span class="italic col-sm-offset-1 col-lg-offset-1">Equipment</span>
+          <input type="text" placeholder="Suche">
+
+          <!--Dropdown-Menu-->
+          <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Alle
+            <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+              <li><a href="#">Audiogeräte</a></li>
+              <li><a href="#">Kameras</a></li>
+              <li><a href="#">Licht</a></li>
+              <li><a href="#">Zubehör</a></li>
+            </ul>
+          </div>
+
+
         </div>
       </div>
     </div>
